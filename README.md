@@ -21,9 +21,8 @@ In general, Create the EC2 instance then the EFS, and within the network session
 
 ![EFS](https://github.com/Benn1440/Amazon_EFS/assets/67696393/22799df4-6d93-42e0-bdc5-1aed5dcf725b)
 
-Then click attach to attach the EFS and EC2 instance 
-copy out the 
-Using the EFS mount helper provided code sudo mount -t efs -o tls fs-08ed9db97402b6ab1:/ efs
+Then click attach to attach the EFS and EC2 instance copy out the EFS mount helper provided code 
+# sudo mount -t efs -o tls fs-08ed9db97402b6ab1:/ efs
 
 ![EFS Attach](https://github.com/Benn1440/Amazon_EFS/assets/67696393/18411b60-2a68-4222-938c-ade663e6e3c3)
 
@@ -85,4 +84,6 @@ cat efs-1-setup.log
 You should see all the File system mounted to the different instances.
 
 ![Files Monted in three EFS](https://github.com/Benn1440/Amazon_EFS/assets/67696393/f84a0d3c-a288-487e-b90a-b2163a7457b2)
+
+# Reference Use Amazon EFS with Amazon EC2: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEFS.html
 
